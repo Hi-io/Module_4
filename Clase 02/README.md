@@ -118,7 +118,7 @@ Comandos:
 4) $ docker inspect \<container ID\> (muestra el detalle completo de un contenedor)
 5) $ docker inspect \<name\> (igual que el anterior pero invocado con el nombre)
 #### Ejecutar el contenedor “hello-world” asignandole un nombre distinto.
-6) $ docker run -d –-name hola-mundo hello-world (le asigno un nombre custom “hola-mundo”)
+6) $ docker run –-name hola-mundo hello-world (le asigno un nombre custom “hola-mundo”)
 7) $ docker rename hola-mundo hola-a-todos (cambio el nombre de hola-mundo a hola-a-todos)
 #### Ejecutar la eliminación de un contenedor (usar rm y prune)
 8) $ docker rm \<ID o nombre\> (borro un contenedor)
@@ -164,7 +164,7 @@ https://hub.docker.com/
   3) $ docker ps (veo los contenedores activos)
   4) $ docker exec -it mongodb bash (entro al bash del contenedor)
 ### 17) Ejecutar los siguientes comandos:
-  1) $ mongo (me conecto a la base de datos)
+  1) $ mongosh (me conecto a la base de datos)
   2) show dbs (listo las bases de datos)
   3) use prueba (creo la base “prueba”)
   4) db.prueba.insert({‘color’: ’azul’}) (inserto un nuevo dato)
